@@ -12,20 +12,20 @@ function contact_form()
 		url:'https://mandrillapp.com/api/1.0/messages/send.json',
 		data: 
 		{
-			‘key’: ‘ouQ9d2s4hE-5QqzBwZHUMw’,
-    		‘message’: 
+			'key':'ouQ9d2s4hE-5QqzBwZHUMw',
+    		'message': 
     		{
-	      	‘from_email’: 'info@ezdiagno.com',
-	      	‘to’: 
+	      	'from_email': 'info@ezdiagno.com',
+	      	'to': 
 	      	[
 	          {
-	            ‘email’: email
-	            ‘type’: ‘to’
+	            'email': email
+	            'type': 'to'
 	          }
 				],
-			‘autotext’: ‘true’,
-	      ‘subject’: ‘EZdiagno Received Your Enquiry’,
-	      ‘html’: ‘<b>Dear Sir/ Mam</b><br/><br/><br/>Thank you for getting in touch with us. We appreciate your time.<br/>Our team member will get back to you shortly on your query/comment.<br/><br/><br/>Thanks and Regards<br/>Team Ezdiagno’
+			'autotext': 'true',
+	      'subject': 'EZdiagno Received Your Enquiry',
+	      'html': '<b>Dear Sir/ Mam</b><br/><br/><br/>Thank you for getting in touch with us. We appreciate your time.<br/>Our team member will get back to you shortly on your query/comment.<br/><br/><br/>Thanks and Regards<br/>Team Ezdiagno'
 			}
 		}
 	}).done(function(response) 
@@ -40,24 +40,24 @@ function contact_form()
 		url:'https://mandrillapp.com/api/1.0/messages/send.json',
 		data: 
 		{
-			‘key’: ‘ouQ9d2s4hE-5QqzBwZHUMw’,
-    		‘message’: 
+			'key': 'ouQ9d2s4hE-5QqzBwZHUMw',
+    		'message': 
     		{
-	      	‘from_email’: email,
-	      	‘to’: 
+	      	'from_email': email,
+	      	'to': 
 	      	[
 	          {
-	            ‘email’: 'ezdiagno@gmail.com'
-	            ‘type’: ‘to’
+	            'email': 'ezdiagno@gmail.com',
+	            'type': 'to'
 	          },
 	          {
-	            ‘email’: 'info@ezdiagno.com'
-	            ‘type’: ‘to’
+	            'email': 'info@ezdiagno.com',
+	            'type': 'to'
 	          }
 				],
-			‘autotext’: ‘true’,
-	      ‘subject’: ‘Enquiry from website’,
-	      ‘html’: ‘Enquiry from email-id: ’+email
+			'autotext': 'true',
+	      'subject': 'Enquiry from website',
+	      'html': 'Enquiry from email-id: '+email
 			}
 		}
 	});
