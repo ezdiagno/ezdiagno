@@ -19,7 +19,7 @@ function contact_form()
 	      	'to': 
 	      	[
 	          {
-	            'email': email
+	            'email': email,
 	            'type': 'to'
 	          }
 				],
