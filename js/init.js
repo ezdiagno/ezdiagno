@@ -88,12 +88,13 @@ jQuery(document).ready(function($) {
 /*----------------------------------------------------*/
 /* FitText Settings
 ------------------------------------------------------ */
+/*
    setTimeout( function() {
 
 	   $('h1.responsive-headline').fitText(1, { minFontSize: '40px', maxFontSize: '90px' });
 	   
    }, 100);
-
+*/
 /*----------------------------------------------------*/
 /* Final Countdown Settings
 ------------------------------------------------------ */
@@ -113,7 +114,7 @@ jQuery(document).ready(function($) {
 /*----------------------------------------------------*/
 /*	gmaps settings
 ------------------------------------------------------*/
-
+/*
    var map;
 
    // main directions
@@ -166,7 +167,7 @@ jQuery(document).ready(function($) {
  		// title: '5th Avenue',
    //  	infoWindow: { content: '<p>You can add your address 1 here</p>' } 
    // });
-
+*/
 
 /*----------------------------------------------------*/
 /* Smooth Scrolling
